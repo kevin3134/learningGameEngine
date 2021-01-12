@@ -16,7 +16,9 @@ website: http://irrlicht.sourceforge.net/
 
 一些实现：  
 Occlusion Queries  
-是内置的一种优化方案，在正式通过shader渲染前先进行一次简单的预渲染，判断遮挡关系，这样避免绘制遮挡物体，可以提高效率  
+是内置的一种优化方案，在正式通过shader渲染前先进行一次简单的预渲染，判断遮挡关系，这样避免绘制遮挡物体，可以提高效率 
+Referrence Count
+引擎中的最基础类，是大多数类的父类。用于记录被引用的次数，提供简单快捷的垃圾回收的功能
 
 
 # Irrlicht Engine 1.8.4
